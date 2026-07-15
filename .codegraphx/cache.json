@@ -1,0 +1,471 @@
+{
+  "src/vite-env.d.ts": {
+    "hash": "e2eac6bcc8767d416f859eb09486cc8709de95a5",
+    "entities": {
+      "path": "src/vite-env.d.ts",
+      "file": "src/vite-env.d.ts",
+      "hash": "e2eac6bcc8767d416f859eb09486cc8709de95a5",
+      "language": "typescript",
+      "symbols": [],
+      "imports": [],
+      "syntaxErrors": [],
+      "apiCalls": [],
+      "apiRoutes": []
+    }
+  },
+  "vite.config.ts": {
+    "hash": "62e06a47cc47fa825e0c37f4ce534df6b1bea29d",
+    "entities": {
+      "path": "vite.config.ts",
+      "file": "vite.config.ts",
+      "hash": "62e06a47cc47fa825e0c37f4ce534df6b1bea29d",
+      "language": "typescript",
+      "symbols": [],
+      "imports": [
+        {
+          "localName": "defineConfig",
+          "importedName": "defineConfig",
+          "source": "vite"
+        },
+        {
+          "localName": "react",
+          "importedName": "default",
+          "source": "@vitejs/plugin-react"
+        }
+      ],
+      "syntaxErrors": [],
+      "apiCalls": [],
+      "apiRoutes": []
+    }
+  },
+  "src/App.tsx": {
+    "hash": "76130531d86dcee61d8e2346b7b6f8ca127ffb61",
+    "entities": {
+      "path": "src/App.tsx",
+      "file": "src/App.tsx",
+      "hash": "76130531d86dcee61d8e2346b7b6f8ca127ffb61",
+      "language": "tsx",
+      "symbols": [
+        {
+          "id": "tsx::src/App.tsx::global::App",
+          "name": "App",
+          "type": "function",
+          "file": "src/App.tsx",
+          "scope": "global",
+          "startPosition": {
+            "row": 5,
+            "column": 0
+          },
+          "calls": [
+            "useState",
+            "setGreetMsg",
+            "invoke",
+            "e.preventDefault",
+            "greet"
+          ],
+          "ontology": [],
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "id": "tsx::src/App.tsx::global::greet",
+          "name": "greet",
+          "type": "function",
+          "file": "src/App.tsx",
+          "scope": "global",
+          "startPosition": {
+            "row": 9,
+            "column": 2
+          },
+          "calls": [
+            "setGreetMsg",
+            "invoke"
+          ],
+          "ontology": [],
+          "params": []
+        }
+      ],
+      "imports": [
+        {
+          "localName": "useState",
+          "importedName": "useState",
+          "source": "react"
+        },
+        {
+          "localName": "reactLogo",
+          "importedName": "default",
+          "source": "./assets/react.svg"
+        },
+        {
+          "localName": "invoke",
+          "importedName": "invoke",
+          "source": "@tauri-apps/api/core"
+        },
+        {
+          "localName": null,
+          "importedName": null,
+          "source": "./App.css"
+        }
+      ],
+      "syntaxErrors": [
+        {
+          "line": 16,
+          "column": 9,
+          "nodeType": "MISSING",
+          "context": "<main className=\"container\">"
+        },
+        {
+          "line": 17,
+          "column": 18,
+          "nodeType": "ERROR",
+          "context": "1>Welcome to Tauri + React</h1>"
+        },
+        {
+          "line": 17,
+          "column": 39,
+          "nodeType": "MISSING",
+          "context": "React</h1>"
+        },
+        {
+          "line": 19,
+          "column": 7,
+          "nodeType": "ERROR",
+          "context": "<div className=\"row\">"
+        },
+        {
+          "line": 20,
+          "column": 8,
+          "nodeType": "ERROR",
+          "context": "<a href=\"https://vite.dev\" tar"
+        },
+        {
+          "line": 22,
+          "column": 8,
+          "nodeType": "ERROR",
+          "context": "</a>"
+        },
+        {
+          "line": 23,
+          "column": 8,
+          "nodeType": "ERROR",
+          "context": "<a href=\"https://tauri.app\" ta"
+        },
+        {
+          "line": 25,
+          "column": 8,
+          "nodeType": "ERROR",
+          "context": "</a>"
+        },
+        {
+          "line": 26,
+          "column": 8,
+          "nodeType": "ERROR",
+          "context": "<a href=\"https://react.dev\" ta"
+        },
+        {
+          "line": 28,
+          "column": 8,
+          "nodeType": "ERROR",
+          "context": "</a>"
+        },
+        {
+          "line": 29,
+          "column": 7,
+          "nodeType": "ERROR",
+          "context": "</div>"
+        },
+        {
+          "line": 30,
+          "column": 15,
+          "nodeType": "ERROR",
+          "context": "<p>Click on the Tauri, Vite, and React"
+        },
+        {
+          "line": 30,
+          "column": 35,
+          "nodeType": "ERROR",
+          "context": "ri, Vite, and React logos to learn more."
+        },
+        {
+          "line": 30,
+          "column": 64,
+          "nodeType": "ERROR",
+          "context": "learn more.</p>"
+        },
+        {
+          "line": 30,
+          "column": 69,
+          "nodeType": "MISSING",
+          "context": "more.</p>"
+        },
+        {
+          "line": 32,
+          "column": 7,
+          "nodeType": "ERROR",
+          "context": "<form"
+        },
+        {
+          "line": 33,
+          "column": 18,
+          "nodeType": "ERROR",
+          "context": "className=\"row\""
+        },
+        {
+          "line": 34,
+          "column": 17,
+          "nodeType": "ERROR",
+          "context": "onSubmit={(e) => {"
+        },
+        {
+          "line": 37,
+          "column": 9,
+          "nodeType": "ERROR",
+          "context": "}}"
+        },
+        {
+          "line": 39,
+          "column": 8,
+          "nodeType": "ERROR",
+          "context": "<input"
+        },
+        {
+          "line": 43,
+          "column": 9,
+          "nodeType": "ERROR",
+          "context": "/>"
+        },
+        {
+          "line": 44,
+          "column": 15,
+          "nodeType": "MISSING",
+          "context": "<button type=\"submit\">Greet</button>"
+        },
+        {
+          "line": 45,
+          "column": 6,
+          "nodeType": "ERROR",
+          "context": "</form>"
+        },
+        {
+          "line": 47,
+          "column": 4,
+          "nodeType": "ERROR",
+          "context": "</main>"
+        },
+        {
+          "line": 47,
+          "column": 10,
+          "nodeType": "ERROR",
+          "context": "</main>"
+        }
+      ],
+      "apiCalls": [],
+      "apiRoutes": []
+    }
+  },
+  "src/main.tsx": {
+    "hash": "bf1dc88d8126cede9b9f7d83da9da2459d930941",
+    "entities": {
+      "path": "src/main.tsx",
+      "file": "src/main.tsx",
+      "hash": "bf1dc88d8126cede9b9f7d83da9da2459d930941",
+      "language": "tsx",
+      "symbols": [],
+      "imports": [
+        {
+          "localName": "React",
+          "importedName": "default",
+          "source": "react"
+        },
+        {
+          "localName": "ReactDOM",
+          "importedName": "default",
+          "source": "react-dom/client"
+        },
+        {
+          "localName": "App",
+          "importedName": "default",
+          "source": "./App"
+        }
+      ],
+      "syntaxErrors": [
+        {
+          "line": 7,
+          "column": 9,
+          "nodeType": "ERROR",
+          "context": "<App />"
+        },
+        {
+          "line": 8,
+          "column": 3,
+          "nodeType": "ERROR",
+          "context": "</React.StrictMode>,"
+        },
+        {
+          "line": 8,
+          "column": 21,
+          "nodeType": "MISSING",
+          "context": "trictMode>,"
+        }
+      ],
+      "apiCalls": [],
+      "apiRoutes": []
+    }
+  },
+  "src/App.css": {
+    "hash": "48d858dab4db1301f4961447cddb166c20aee6e8",
+    "entities": {
+      "path": "src/App.css",
+      "file": "src/App.css",
+      "hash": "48d858dab4db1301f4961447cddb166c20aee6e8",
+      "language": "css",
+      "symbols": [
+        {
+          "id": "css::src/App.css::global::#greet-input",
+          "name": "#greet-input",
+          "type": "id",
+          "file": "src/App.css",
+          "scope": "global",
+          "startPosition": {
+            "row": 93,
+            "column": 0
+          },
+          "calls": [],
+          "ontology": [],
+          "params": []
+        },
+        {
+          "id": "css::src/App.css::global::.row",
+          "name": ".row",
+          "type": "class",
+          "file": "src/App.css",
+          "scope": "global",
+          "startPosition": {
+            "row": 43,
+            "column": 0
+          },
+          "calls": [],
+          "ontology": [],
+          "params": []
+        },
+        {
+          "id": "css::src/App.css::global::.tauri",
+          "name": ".tauri",
+          "type": "class",
+          "file": "src/App.css",
+          "scope": "global",
+          "startPosition": {
+            "row": 39,
+            "column": 0
+          },
+          "calls": [],
+          "ontology": [],
+          "params": []
+        },
+        {
+          "id": "css::src/App.css::global::.logo",
+          "name": ".logo",
+          "type": "class",
+          "file": "src/App.css",
+          "scope": "global",
+          "startPosition": {
+            "row": 39,
+            "column": 0
+          },
+          "calls": [],
+          "ontology": [],
+          "params": []
+        },
+        {
+          "id": "css::src/App.css::global::.logo",
+          "name": ".logo",
+          "type": "class",
+          "file": "src/App.css",
+          "scope": "global",
+          "startPosition": {
+            "row": 32,
+            "column": 0
+          },
+          "calls": [],
+          "ontology": [],
+          "params": []
+        },
+        {
+          "id": "css::src/App.css::global::.container",
+          "name": ".container",
+          "type": "class",
+          "file": "src/App.css",
+          "scope": "global",
+          "startPosition": {
+            "row": 23,
+            "column": 0
+          },
+          "calls": [],
+          "ontology": [],
+          "params": []
+        },
+        {
+          "id": "css::src/App.css::global::.react",
+          "name": ".react",
+          "type": "class",
+          "file": "src/App.css",
+          "scope": "global",
+          "startPosition": {
+            "row": 4,
+            "column": 0
+          },
+          "calls": [],
+          "ontology": [],
+          "params": []
+        },
+        {
+          "id": "css::src/App.css::global::.logo",
+          "name": ".logo",
+          "type": "class",
+          "file": "src/App.css",
+          "scope": "global",
+          "startPosition": {
+            "row": 4,
+            "column": 0
+          },
+          "calls": [],
+          "ontology": [],
+          "params": []
+        },
+        {
+          "id": "css::src/App.css::global::.vite",
+          "name": ".vite",
+          "type": "class",
+          "file": "src/App.css",
+          "scope": "global",
+          "startPosition": {
+            "row": 0,
+            "column": 0
+          },
+          "calls": [],
+          "ontology": [],
+          "params": []
+        },
+        {
+          "id": "css::src/App.css::global::.logo",
+          "name": ".logo",
+          "type": "class",
+          "file": "src/App.css",
+          "scope": "global",
+          "startPosition": {
+            "row": 0,
+            "column": 0
+          },
+          "calls": [],
+          "ontology": [],
+          "params": []
+        }
+      ],
+      "imports": [],
+      "syntaxErrors": [],
+      "apiCalls": [],
+      "apiRoutes": []
+    }
+  }
+}
