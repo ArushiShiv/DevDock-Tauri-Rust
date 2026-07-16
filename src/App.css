@@ -806,3 +806,17 @@ body {
   height: 48px;
   color: var(--text-dark);
 }
+
+/* Telemetry Mini Chart Layout */
+.stat-display-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 12px;
+}
+
+.card-mini-chart {
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+}
